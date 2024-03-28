@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "uva workshop example - march 28, 2024" ] },
+    "summary": { "en": [ "Matt Cohen - IIIF manifest" ] },
+    "items": [
+    ]
+}
