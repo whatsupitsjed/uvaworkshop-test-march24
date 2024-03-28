@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://whatsupitsjed.github.io/uvaworkshop-test-march24/matt-cohen/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "matt cohen" ] },
+    "homepage": [
+      {
+        "id": "https://ualberta.aviaryplatform.com/collections/1783",
+        "type": "Text",
+        "label": { "en": [ "matt cohen" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://ualberta.aviaryplatform.com/collections/1783",
+        "type": "Agent",
+        "label": { "en": [ "Univrsity of Alberta" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://whatsupitsjed.github.io/uvaworkshop-test-march24/matt-cohen/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1815.0,
+        "items": [
+          {
+            "id": "https://whatsupitsjed.github.io/uvaworkshop-test-march24/matt-cohen/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://whatsupitsjed.github.io/uvaworkshop-test-march24/matt-cohen/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ualberta.aviaryplatform.com/embed/media/134052",
+                    "duration": 1815.0
+                },
+                "target": "https://whatsupitsjed.github.io/uvaworkshop-test-march24/matt-cohen/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
